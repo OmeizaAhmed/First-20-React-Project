@@ -1,9 +1,12 @@
 // import Accordion from "./components/accordion"
 import "./App.css"
+import QRCodeGenerator from "./components/qr-code-generator"
 // import ImageSlider from "./components/image-slider"
-import LoadMore from "./components/load-more"
+// import LoadMore from "./components/load-more"
 // import RandomColor from "./components/random-color"
 // import StarRating from "./components/star-rating"
+// import menus from "./components/tree-view/data"
+// import MenuList from "./components/tree-view/MenuList"
 
 
 function App() {
@@ -23,7 +26,13 @@ function App() {
       {/* <ImageSlider limit={5}/> */}
 
       {/* Load More Component */}
-      <LoadMore />
+      {/* <LoadMore /> */}
+
+      {/* Tree view Component */}
+      {/* <MenuList list={menus}/> */}
+
+      {/* QRCode Component */}
+      <QRCodeGenerator />
 
     </div>
   )
