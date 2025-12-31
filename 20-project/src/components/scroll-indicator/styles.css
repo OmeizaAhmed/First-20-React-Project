@@ -1,0 +1,16 @@
+.scroll-list-container{
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.scroll-wrapper{
+  height: 20px;
+  background-color: beige;
+}
+
+.scroll-wrapper > div{
+  background-color: green;
+  height: inherit;
+}

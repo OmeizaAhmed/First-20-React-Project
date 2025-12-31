@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "./styles.css"
 
 export default function ScrollIndicator({
   url,
@@ -61,16 +62,16 @@ export default function ScrollIndicator({
         style={{ position: "fixed", width: "100%", backgroundColor: "yellow" }}
       >
         <h1>Scroll Indicator</h1>
-        <div
+        <div className="scroll-wrapper">
+          <div
           style={{
-            backgroundColor: "green",
             width: `${scrollPercentage}%`,
-            height: "3px",
           }}
         ></div>
+        </div>
       </div>
 
-      <div>
+      <div className="scroll-list-container">
         {items.length
           ? items.map(
               (item: { title: string; id: number; [key: string]: unknown }) => (

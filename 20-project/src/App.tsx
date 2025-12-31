@@ -1,7 +1,8 @@
 // import Accordion from "./components/accordion"
 import "./App.css"
+import TabTest from "./components/custom-tab/TabTest"
 // import LightDarkMode from "./components/light-dark"
-import ScrollIndicator from "./components/scroll-indicator"
+// import ScrollIndicator from "./components/scroll-indicator"
 // import QRCodeGenerator from "./components/qr-code-generator"
 // import ImageSlider from "./components/image-slider"
 // import LoadMore from "./components/load-more"
@@ -40,7 +41,10 @@ function App() {
       {/* <LightDarkMode /> */}
 
       {/* Scroll Indicator */}
-      <ScrollIndicator url="https://dummyjson.com/products" limit={100}/>
+      {/* <ScrollIndicator url="https://dummyjson.com/products" limit={100}/> */}
+
+      {/* Custom Tab */}
+      <TabTest></TabTest>
 
     </div>
   )
