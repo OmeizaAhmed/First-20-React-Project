@@ -14,6 +14,7 @@ export default function QRCodeGenerator() {
 
   return (
     <div>
+      <h1>QR CODE GENERATOR</h1>
       <div>
         <input
           type="text"

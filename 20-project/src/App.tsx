@@ -1,6 +1,7 @@
 // import Accordion from "./components/accordion"
 import "./App.css"
-import QRCodeGenerator from "./components/qr-code-generator"
+import LightDarkMode from "./components/light-dark"
+// import QRCodeGenerator from "./components/qr-code-generator"
 // import ImageSlider from "./components/image-slider"
 // import LoadMore from "./components/load-more"
 // import RandomColor from "./components/random-color"
@@ -32,7 +33,10 @@ function App() {
       {/* <MenuList list={menus}/> */}
 
       {/* QRCode Component */}
-      <QRCodeGenerator />
+      {/* <QRCodeGenerator /> */}
+
+      {/* Dark/Light mode */}
+      <LightDarkMode />
 
     </div>
   )

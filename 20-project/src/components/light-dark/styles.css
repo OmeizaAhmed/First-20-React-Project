@@ -1,0 +1,35 @@
+:root{
+  --background: white;
+  --text-primary: black;
+}
+
+[data-theme ="dark"]{
+  --background: black;
+  --text-primary: white
+}
+
+.container{
+  background-color: var(--background);
+  color: var(--text-primary);
+  width: 100wh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s;
+}
+
+.container > button{
+  color: var(--text-primary);
+  background-color: var(--background);
+  border: 1px solid var(--text-primary);
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  border-radius: 0.25rem;
+}
+
+.container > p{
+  font-size: 2.5rem;
+  font-weight: 500;
+}
