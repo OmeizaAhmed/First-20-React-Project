@@ -1,6 +1,7 @@
 // import Accordion from "./components/accordion"
 import "./App.css"
-import LightDarkMode from "./components/light-dark"
+// import LightDarkMode from "./components/light-dark"
+import ScrollIndicator from "./components/scroll-indicator"
 // import QRCodeGenerator from "./components/qr-code-generator"
 // import ImageSlider from "./components/image-slider"
 // import LoadMore from "./components/load-more"
@@ -36,7 +37,10 @@ function App() {
       {/* <QRCodeGenerator /> */}
 
       {/* Dark/Light mode */}
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
+
+      {/* Scroll Indicator */}
+      <ScrollIndicator url="https://dummyjson.com/products" limit={100}/>
 
     </div>
   )
