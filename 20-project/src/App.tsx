@@ -1,6 +1,6 @@
 // import Accordion from "./components/accordion"
 import "./App.css"
-import TabTest from "./components/custom-tab/TabTest"
+// import TabTest from "./components/custom-tab/TabTest"
 // import LightDarkMode from "./components/light-dark"
 // import ScrollIndicator from "./components/scroll-indicator"
 // import QRCodeGenerator from "./components/qr-code-generator"
@@ -10,6 +10,7 @@ import TabTest from "./components/custom-tab/TabTest"
 // import StarRating from "./components/star-rating"
 // import menus from "./components/tree-view/data"
 // import MenuList from "./components/tree-view/MenuList"
+import ModalTest from "./components/custom-modal/ModalTest"
 
 
 function App() {
@@ -44,7 +45,10 @@ function App() {
       {/* <ScrollIndicator url="https://dummyjson.com/products" limit={100}/> */}
 
       {/* Custom Tab */}
-      <TabTest></TabTest>
+      {/* <TabTest /> */}
+
+      {/* Custom Modal Component */}
+      <ModalTest />
 
     </div>
   )

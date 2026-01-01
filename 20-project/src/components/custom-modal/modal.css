@@ -1,0 +1,32 @@
+.modal-container{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 400px;
+  max-height: 400px;
+  overflow: auto;
+  background-color: azure;
+  margin: 30px auto;
+}
+
+.close-btn{
+  position: absolute;
+  cursor: pointer;
+  right: 10px;
+  top: 10px;
+}
+
+.modal-header,
+.modal-body,
+.modal-footer{
+  padding: 1rem;
+}
+
+.modal-header, .modal-footer{
+  background-color: #7132ac;
+}
+
+.modal-body{
+  min-height: 150px;
+}
