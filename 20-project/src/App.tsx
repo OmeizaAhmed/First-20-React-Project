@@ -10,7 +10,8 @@ import "./App.css"
 // import StarRating from "./components/star-rating"
 // import menus from "./components/tree-view/data"
 // import MenuList from "./components/tree-view/MenuList"
-import ModalTest from "./components/custom-modal/ModalTest"
+// import ModalTest from "./components/custom-modal/ModalTest"
+import GithubProfile from "./components/github-profile"
 
 
 function App() {
@@ -48,7 +49,10 @@ function App() {
       {/* <TabTest /> */}
 
       {/* Custom Modal Component */}
-      <ModalTest />
+      {/* <ModalTest /> */}
+
+      {/* Github Profile Finder Component */}
+      <GithubProfile />
 
     </div>
   )

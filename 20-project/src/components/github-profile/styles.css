@@ -1,0 +1,37 @@
+.card{
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border: 2px solid #050547;
+  width: 500px;
+  margin: 30px auto;
+}
+
+.card > img{
+  aspect-ratio: 1/1;
+  width: 130px;
+  border-radius: 0.5rem;
+}
+
+.card > p{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card > p > a{
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+input, button{
+  border: 1px solid #050547;
+  border-radius: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background-color: white;
+}
+
+form{
+  display: flex;
+  gap: 0.5rem;
+  margin: 15px auto;
+  width: fit-content;
+}
