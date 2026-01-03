@@ -14,11 +14,10 @@ export default function User({user}:any){
   const date = new Date(created_at)
    const dateString = `${date.getDate()} ${date.toLocaleString('en-US', {month: 'short'})} ${date.getFullYear()}`;
 
-   console.log(dateString)
   return(
     <div className="card">
       <img src={avatar_url} alt={name}/>
-      <p><a href={`https://github.com/${login}`}>{name}</a> Joined {dateString}</p>
+      <p><a href={`https://github.com/${login}`} target='_blank'>{name}</a> Joined {dateString}</p>
       <p>Public Repo: {public_repos}</p>
       <p>Follower: {followers}</p>
       <p>Following: {following}</p>

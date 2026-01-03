@@ -1,5 +1,6 @@
 // import Accordion from "./components/accordion"
 import "./App.css"
+import AutoComplete from "./components/search-autocomplete-with-api"
 // import TabTest from "./components/custom-tab/TabTest"
 // import LightDarkMode from "./components/light-dark"
 // import ScrollIndicator from "./components/scroll-indicator"
@@ -11,7 +12,7 @@ import "./App.css"
 // import menus from "./components/tree-view/data"
 // import MenuList from "./components/tree-view/MenuList"
 // import ModalTest from "./components/custom-modal/ModalTest"
-import GithubProfile from "./components/github-profile"
+// import GithubProfile from "./components/github-profile"
 
 
 function App() {
@@ -52,7 +53,10 @@ function App() {
       {/* <ModalTest /> */}
 
       {/* Github Profile Finder Component */}
-      <GithubProfile />
+      {/* <GithubProfile /> */}
+
+      {/* AutoComplete Component */}
+      <AutoComplete />
 
     </div>
   )
