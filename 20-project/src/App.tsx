@@ -1,6 +1,7 @@
 // import Accordion from "./components/accordion"
 import "./App.css"
-import AutoComplete from "./components/search-autocomplete-with-api"
+// import AutoComplete from "./components/search-autocomplete-with-api"
+import TicTacToe from "./components/tic-tac-toe/TicTacToe"
 // import TabTest from "./components/custom-tab/TabTest"
 // import LightDarkMode from "./components/light-dark"
 // import ScrollIndicator from "./components/scroll-indicator"
@@ -56,7 +57,10 @@ function App() {
       {/* <GithubProfile /> */}
 
       {/* AutoComplete Component */}
-      <AutoComplete />
+      {/* <AutoComplete /> */}
+
+      {/* Tic Tac Toe Component */}
+      <TicTacToe />
 
     </div>
   )

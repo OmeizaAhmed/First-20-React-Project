@@ -1,0 +1,26 @@
+.tic-tac-toe-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.box{
+  border: 1px solid #360909;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.win{
+  background-color: #7fbb7f;
+}
+
+.status-bar{
+  font-size: 2rem;
+  font-weight: bold;
+}
