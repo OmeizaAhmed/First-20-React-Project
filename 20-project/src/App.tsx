@@ -1,7 +1,8 @@
 // import Accordion from "./components/accordion"
 import "./App.css"
-import FeatureFlagGlobalState from "./components/feature-flags"
-import FeatureFlag from "./components/feature-flags/context"
+// import FeatureFlagGlobalState from "./components/feature-flags"
+// import FeatureFlag from "./components/feature-flags/context"
+import UseFetchTest from "./components/use-fetch/test"
 // import AutoComplete from "./components/search-autocomplete-with-api"
 // import TicTacToe from "./components/tic-tac-toe/TicTacToe"
 // import TabTest from "./components/custom-tab/TabTest"
@@ -64,10 +65,13 @@ function App() {
       {/* Tic Tac Toe Component */}
       {/* <TicTacToe /> */}
 
-
-      <FeatureFlagGlobalState>
+      {/* Feature flag Component */}
+      {/* <FeatureFlagGlobalState>
         <FeatureFlag />
-      </FeatureFlagGlobalState>
+      </FeatureFlagGlobalState> */}
+
+      {/* Use Fetch Hook */}
+      <UseFetchTest />
 
     </div>
   )
