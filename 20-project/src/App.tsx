@@ -1,7 +1,9 @@
 // import Accordion from "./components/accordion"
 import "./App.css"
+import FeatureFlagGlobalState from "./components/feature-flags"
+import FeatureFlag from "./components/feature-flags/context"
 // import AutoComplete from "./components/search-autocomplete-with-api"
-import TicTacToe from "./components/tic-tac-toe/TicTacToe"
+// import TicTacToe from "./components/tic-tac-toe/TicTacToe"
 // import TabTest from "./components/custom-tab/TabTest"
 // import LightDarkMode from "./components/light-dark"
 // import ScrollIndicator from "./components/scroll-indicator"
@@ -60,7 +62,12 @@ function App() {
       {/* <AutoComplete /> */}
 
       {/* Tic Tac Toe Component */}
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+
+
+      <FeatureFlagGlobalState>
+        <FeatureFlag />
+      </FeatureFlagGlobalState>
 
     </div>
   )
