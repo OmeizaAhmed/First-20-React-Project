@@ -2,7 +2,8 @@
 import "./App.css"
 // import FeatureFlagGlobalState from "./components/feature-flags"
 // import FeatureFlag from "./components/feature-flags/context"
-import UseFetchTest from "./components/use-fetch/test"
+// import UseFetchTest from "./components/use-fetch/test"
+import UseOutsideClickTest from "./components/use-outside-click/test"
 // import AutoComplete from "./components/search-autocomplete-with-api"
 // import TicTacToe from "./components/tic-tac-toe/TicTacToe"
 // import TabTest from "./components/custom-tab/TabTest"
@@ -71,7 +72,10 @@ function App() {
       </FeatureFlagGlobalState> */}
 
       {/* Use Fetch Hook */}
-      <UseFetchTest />
+      {/* <UseFetchTest /> */}
+
+      {/* Use Outside Click Ref Component */}
+      <UseOutsideClickTest />
 
     </div>
   )
