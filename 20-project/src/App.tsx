@@ -1,10 +1,11 @@
 // import Accordion from "./components/accordion"
 import "./App.css"
+import ScrollToTopBottom from "./components/scroll-to-top-bottom"
 // import FeatureFlagGlobalState from "./components/feature-flags"
 // import FeatureFlag from "./components/feature-flags/context"
 // import UseFetchTest from "./components/use-fetch/test"
 // import UseOutsideClickTest from "./components/use-outside-click/test"
-import UseWindowResizeTest from "./components/use-window-resize/test"
+// import UseWindowResizeTest from "./components/use-window-resize/test"
 // import AutoComplete from "./components/search-autocomplete-with-api"
 // import TicTacToe from "./components/tic-tac-toe/TicTacToe"
 // import TabTest from "./components/custom-tab/TabTest"
@@ -79,7 +80,10 @@ function App() {
       {/* <UseOutsideClickTest /> */}
 
       {/* Use Window resize Hook component */}
-      <UseWindowResizeTest />
+      {/* <UseWindowResizeTest /> */}
+
+      {/* Scroll to top and bottom Component */}
+      <ScrollToTopBottom />
 
     </div>
   )
