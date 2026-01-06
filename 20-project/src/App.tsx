@@ -1,6 +1,7 @@
 // import Accordion from "./components/accordion"
 import "./App.css"
-import ScrollToTopBottom from "./components/scroll-to-top-bottom"
+import ScrollToSection from "./components/scroll-to-section"
+// import ScrollToTopBottom from "./components/scroll-to-top-bottom"
 // import FeatureFlagGlobalState from "./components/feature-flags"
 // import FeatureFlag from "./components/feature-flags/context"
 // import UseFetchTest from "./components/use-fetch/test"
@@ -83,7 +84,10 @@ function App() {
       {/* <UseWindowResizeTest /> */}
 
       {/* Scroll to top and bottom Component */}
-      <ScrollToTopBottom />
+      {/* <ScrollToTopBottom /> */}
+
+      {/* Scroll to Section */}
+      <ScrollToSection />
 
     </div>
   )
